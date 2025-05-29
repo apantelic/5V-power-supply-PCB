@@ -1,33 +1,33 @@
 # Voltage Regulator Module
 
-Dizajniran je kao jednostavan **modul za stabilizaciju napona** koristeći linearni regulator (npr. AMS1117)
+Designed as a simple **voltage stabilization module** using a linear regulator (e.g., AMS1117)
 
-## Sadržaj projekta
+## Project Contents
 
-- **Šema** (`.kicad_sch`)
-- **PCB dizajn** (`.kicad_pcb`)
-- **Footprint-ovi**
-- Spreman za generisanje Gerber fajlova za izradu ploče
+- **Schematic** (`.kicad_sch`)
+- **PCB layout ** (`.kicad_pcb`)
+- **Footprints**
+- Ready for generating Gerber files for PCB fabrication
 
-## Karakteristike
+## Features
 
-- Ulazni napon: 5–12V DC
-- Izlazni napon: 3.3V ili 5V (zavisi od regulatora)
-- LED indikator napajanja
-- Dva kondenzatora za filtraciju
-- Dioda za zaštitu od obrnutog polariteta
-
-## Korišćeni alat
+- Based on **AMS1117-5.0**
+- Input voltage: 5–12V DC
+- Output voltage: 3.3V ili 5V depending on the regulator
+- Power indicator LED
+- Two filtering capacitors
+  
+## Tools Used
 
 - [KiCAD 8](https://www.kicad.org/)
 
-## Napomene
+## Notes
 
-- GND mreža je realizovana preko ground plane-a
-- Veličina ploče: prilagođena ručno
-- Namenjeno za vežbu i učenje rada sa PCB dizajnom
+- GND is implemented using a ground plane
+- Board dimensions manually adjusted
+- Created for learning and practice in PCB design
 
-## Autor
+## Author
 
-Anđela Pantelić, ETF
+Anđela Pantelić, Electronics student
 2025.
