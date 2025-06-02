@@ -5,7 +5,7 @@ Designed as a simple **voltage stabilization module** using a linear regulator (
 ## Project Contents
 
 - **Schematic** (`.kicad_sch`)
-- **PCB layout ** (`.kicad_pcb`)
+- **PCB layout** (`.kicad_pcb`)
 - **Footprints**
 - Ready for generating Gerber files for PCB fabrication
 
